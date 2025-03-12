@@ -9,7 +9,10 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "groups": [
+    "tabs":[
+      {
+        "tab": "Developer Docs",
+        "groups": [
       {
         "group": " ",
         "pages": [
@@ -175,7 +178,12 @@
           "multi-token-stable-pools"
         ]
       },
+      
+    ],
+      },
       {
+        "tab": "User Guide",
+        {
         "group": "Resources",
         "pages": [
           "resources/audits",
@@ -253,18 +261,19 @@
           "legal/m3m3-terms-of-service"
         ]
       }
+      }
     ],
     "global": {
       "anchors": [
         {
+          "anchor": "X (Formerly Twitter)",
+          "href": "https://x.com/MeteoraAG",
+          "icon": "x-twitter"
+        },
+        {
           "anchor": "Community",
           "href": "https://discord.gg/meteora",
           "icon": "discord"
-        },
-        {
-          "anchor": "Contact Us",
-          "href": "https://discord.gg/meteora",
-          "icon": "headset"
         }
       ]
     }
